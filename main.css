@@ -1,0 +1,74 @@
+body {
+    background:  #f1f1f1;
+    font-family: 'Mountserrat', sans-serf;
+    margin: 0;
+
+}
+.container {
+    background: rgb(0, 132, 255);
+    padding: 5em;
+    color: #fff;
+}
+.container div{
+    animation: yourAnimation 2s forwards 0s 
+ }
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateY(-15%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+.container div h1 {
+    animation: yourAnimation3 3s infinite 0s linear;
+}
+@keyframes yourAnimation3{
+    0%{
+        transform: rotate(0) scale(.9) translateX(2) translateY(-15%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateX( ) translateY(0);
+        opacity: 1;
+        }
+}
+
+
+
+h1 {
+    font-size: 3em;
+}
+p{
+    font-size: 1.1em;
+    line-height: 1.6em;
+
+}
+a.cta {
+    display: inline-block;
+    padding:1em;
+    background: rgb(242, 255, 196);
+    border-radius:4px;
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    margin-top: 20px;
+    font-size:1.3em;
+    font-weight:bold;
+    animation: yourAnimation2 1.5s infinite .3s 
+}
+@keyframes yourAnimation2 {
+    0%{
+        transform: rotate(0) translateX(-30px);
+        opacity: 0;
+        }
+    77%{
+        transform: rotate(0) translateX(10px);
+        opacity: .76;
+        }
+    100%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        }
+}
